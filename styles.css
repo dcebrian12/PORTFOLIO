@@ -1,64 +1,87 @@
-body 
-{
-    font-family: Calibri;
-    background-color: rgba(222, 242, 245, 0.345);
+body {
+    background-color: #222222;
+    font-family: futura;
+    color: #e9c46a;
+    font-style: italic;
+    text-shadow: 0.5px 0.2px #DDDDDD;
 }
 
-.up
-{
-    background-color: #FBD781;
-    border: 4px solid #c56b12;
-    border-radius: 15px;
-    height: 75px;
+li {
+    list-style-type: none;
+}
+
+.header{
     box-sizing: border-box;
+    height: 10vh;
+    background-color: #222222;
+    border: 3px solid #e9c46a;
+    border-radius: 15px;
+    margin-top: 15px;
+    box-shadow: 8px 1px 10px #DDDDDD;
 }
 
-#study
-{
-    margin: auto;
-    font-size: 3.5em;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
+.github{
+    filter: drop-shadow(2px 2px 10px #FFFFFF);
 }
 
-.enlace
-{
-    margin: 0 0 0 85%;
-    position: absolute;
-    top: 28px;
-    color: #000000;;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 2em;
-}
-
-.cv
-{
-    margin-left: 95%;
-}
- 
-.enlace:visited
-{
-    color:black;
-}
-
-.salute
-{
+h1{
     font-size: 5em;
     font-style: italic;
-    margin-left: 25%;
+    text-align: center;
 }
 
-.myname
-{
-    font-size: 6em;
+.middle{
+    box-sizing: border-box;
+    margin: auto;
+    width: 45vh;
+    background-color: #282828;
+    padding: 25px;
+    border-radius: 25px;
+    border: 3px solid #e9c46a;
+    box-shadow: 3px 1px 10px #DDDDDD;
+    font-size: 1.5em;
+    position: absolute;
+    top: 40%;
+}
+
+.aboutme{
+    left: 25%;
+}
+
+.description{
     font-weight: bold;
-    font-style: italic;
-    margin:0 27% 0 35%;
-    padding-left: 15px;
-    background-color: #556b12;
-    border-bottom: 5px solid black;
-    border-right: 5px solid black;
-    border-radius: 0 15px; ;
+    font-size: 1.2em;
+    margin: 5px;
+}
+
+.image{
+    right: 25%;
+}
+
+.lista_horizontal{
+    box-sizing: border-box;
+    display: flex;
+    position: absolute;
+    top: 72%;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+h2 {
+    position: absolute;
+    top: 75%;
+    margin-left: 15px;
+    font-size: 3em;
+}
+
+.logos{
+    width: 150px;
+    margin-right: 50px;
+    filter: drop-shadow(2px 2px 2.5px #fAd57b);
+}
+
+.python{
+    filter: drop-shadow(4px 2px 2.5px #fAd57b);
+
 }
